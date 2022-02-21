@@ -1,1 +1,48 @@
-/* Denna fil skall innehålla din CSS kod */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90vh;
+    top: -90vh;
+    background-color: aqua;
+    align-items: center;
+    width: 20%;
+}
+
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks a {
+    color: brown;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: brown;
+    margin: 5px;
+    border-radius: 10%;
+}
+
