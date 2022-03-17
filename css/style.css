@@ -5,7 +5,9 @@
     'hd hd hd';
     }
 
-    
+    #hd {
+        grid-area: hd;
+    }
 
     #sec1 {
         grid-area: s1;
