@@ -3,15 +3,11 @@
    display: grid;
    grid-template-areas: 
    'hd hd hd hd'
-   's1 s2 s3 s4'
-   's5 s6 s7 s8'
+   's1 s1 s1 s1'
+   's2 s2 s2 s2'
+   's3 s3 s3 s3'
    'ft ft ft ft';
-   grid-template-rows:3fr 3fr 3fr 3fr;
-   grid-template-columns: 2fr 2fr 2fr 2fr;
-   min-height:100vh;
-   row-gap: 2rem;
-   column-gap: 2rem;
-    }
+}
 
 
     #hd {
@@ -19,52 +15,41 @@
         border: black solid 1px;
         background-color: royalblue;
         height: 100px;
-
+        margin-bottom: 15%;
+       
     }
 
     #sec1 {
         grid-area: s1;
         border: black solid 1px;
+        height: 15rem;
+        margin-bottom: 15%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     #sec2 {
         grid-area: s2;
         border: black solid 1px;
+        height: 15rem;
+        margin-bottom: 15%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     #sec3 {
         grid-area: s3;
         border: black solid 1px;
-    }
-
-    #sec4 {
-        grid-area: s4;
-        border: black solid 1px;
-    }
-
-    #sec5 {
-        grid-area: s5;
-        border: black solid 1px;
-    }
-
-    #sec6 {
-        grid-area: s6;
-        border: black solid 1px;
-    }
-
-    #sec7 {
-        grid-area: s7;
-        border: black solid 1px;
-    }
-
-    #sec8 {
-        grid-area: s8;
-        border: black solid 1px;
+        height: 15rem;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     #footer {
         grid-area: ft;
         border: black solid 1px;
+        height: 10rem;
     }
 
 
@@ -141,6 +126,7 @@ nav {
     transform: rotate (45deg) translate( -5px, -6px);
 }
 
-
-
+h1{
+    text-align: center;
+}
 
