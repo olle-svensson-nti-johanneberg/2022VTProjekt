@@ -26,6 +26,8 @@
         margin-bottom: 15%;
         margin-left: 3%;
         margin-right: 3%;
+        background-image: url(../img/josh-sorenson-MjIMc6uhwrE-unsplash.jpg);
+        background-size: 100%;
     }
 
     #sec2 {
@@ -35,6 +37,8 @@
         margin-bottom: 15%;
         margin-left: 3%;
         margin-right: 3%;
+        background-image: url(../img/hector-bermudez-iIWDt0fXa84-unsplash.jpg);
+        background-size: 100%;
     }
 
     #sec3 {
@@ -44,6 +48,9 @@
         margin-bottom: 10%;
         margin-left: 3%;
         margin-right: 3%;
+        background-image: url(../img/IMG_5785.jpg);
+        background-size: 100%;
+        background-position: center;
     }
 
     #footer {
