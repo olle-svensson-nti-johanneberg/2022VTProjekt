@@ -5,19 +5,20 @@
 }
 
     /* hamburare */
+    /* heder */
 
-    nav {
+    .navbar {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        
-        height: 10vh;
+        height: 12vh;
         background-color: royalblue;
         font-family: sans-serif;
     }
     
+
     .burger {
-        margin-right: 3.5rem;
+        margin-right: 1.5rem;
         cursor: pointer; 
     }
     
@@ -27,13 +28,12 @@
         justify-content: space-around;
         position: absolute;
         right: 0px;
-        height: 50vh;
+        height: 20vh;
         top: -90vh;
         background-color: royalblue;
         align-items: center;
         width: 20%;
         transition: all 1s;
-        border: 1px, solid, black;
     }
     
     .navActive {
@@ -42,6 +42,10 @@
 
     .nav-logo {
         display: block;
+        position: absolute;
+        top:2rem;
+        left:calc(50vw - 5.5rem);
+        z-index: 5;
     }
     
     .navlinks li {
@@ -76,34 +80,39 @@
     .toggle .line3 {
         transform: rotate (45deg) translate( -5px, -6px);
     }
+.navbar{
+    text-align: center;
+    flex: auto;
+}
+
+/* slut på hamburgare */
+
 
 #logga{
-    height: 2rem;
+    height: 3rem;
+    width: 11rem;
 }
+/* Allt inanför här är till hader */
+
 #wrapper{
    display: grid;
    grid-template-areas: 
    's1'
    's2'
-   's3'
-   'ft';
+   's3';
 }
 
-
-    #hd {
-        grid-area: hd;
-        border: black solid 1px;
-        background-color: royalblue;
-        height: 100px;
-        margin-bottom: 15%;
-       
-    }
-
+h1{
+    text-align: center;
+}
+#drums{
+    margin-top: 2rem;
+}
     #sec1 {
         grid-area: s1;
         border: black solid 1px;
         height: 15rem;
-        margin-bottom: 15%;
+        margin-bottom: 4rem;
         margin-left: 3%;
         margin-right: 3%;
         background-image: url(../img/josh-sorenson-MjIMc6uhwrE-unsplash.jpg);
@@ -114,7 +123,7 @@
         grid-area: s2;
         border: black solid 1px;
         height: 15rem;
-        margin-bottom: 15%;
+        margin-bottom: 4rem;
         margin-left: 3%;
         margin-right: 3%;
         background-image: url(../img/hector-bermudez-iIWDt0fXa84-unsplash.jpg);
@@ -125,23 +134,86 @@
         grid-area: s3;
         border: black solid 1px;
         height: 15rem;
-        margin-bottom: 10%;
+        margin-bottom: 4rem;
         margin-left: 3%;
         margin-right: 3%;
-        background-image: url(../img/IMG_5785.jpg);
+        background-image: url(../img/Alvin.jpg);
         background-size: 100%;
         background-position: center;
     }
+  
+#louie{
+    margin-top: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
-    h1{
-        text-align: center;
-    }
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+  h4 {
+      margin-left: 2rem;
+      margin-top: 4rem;
+  }
 
-    #footer {
-        grid-area: ft;
-        border: black solid 1px;
-        height: 10rem;
-    }
+  #collagediv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
+#collage {
+    display: grid;
+    grid-template-areas: 
+    'b1' 'b2' 'b3';
+}
+
+#bild1 {
+    grid-area: b1;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+   
+}
+
+#bild2 {
+    margin-bottom: 2rem;
+    grid-area: b2;
+    border: black solid 1px;
+    margin-left: 1rem;
+    width: 22.5rem;
+}
+
+#bild3 {
+    grid-area: b3;
+    width: 22.5rem;
+    margin-left: 0.5rem;
+}
+
+.bild {
+
+    height: 15rem;
+}
+
+#kontocollage {
+    display: flex;
+
+}
+
+.kontobild {
+    height: 8rem;
+    margin: 0.3rem;
+}
 
 
